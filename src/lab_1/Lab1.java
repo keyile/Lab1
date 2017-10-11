@@ -1,11 +1,11 @@
-package lab_1;
+﻿package lab_1;
 
 import java.io.*;
 import java.util.*;
 
 public class Lab1 {
 	private static DirectedGraph graph;
-	private static String[] words;
+	private static String[] String;
 	private static Scanner sc = new Scanner(System.in);
 	private static boolean graphReady; // flag that graph has been build
 
