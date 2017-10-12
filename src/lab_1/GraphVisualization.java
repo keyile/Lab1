@@ -55,11 +55,12 @@ public class GraphVisualization
     
     public void initButton()
     {
-        button = new JButton("保存");
+        button = new JButton("保存为图片");
         button.addActionListener(this);
     }
 
-    public void actionPerformed(ActionEvent e){	
+    public void actionPerformed(ActionEvent e){
+	//按下了按钮
         JFileChooser chooser = new JFileChooser();
         FileNameExtensionFilter filter = new FileNameExtensionFilter(
             "JPG & PNG Images", "jpg", "png");
