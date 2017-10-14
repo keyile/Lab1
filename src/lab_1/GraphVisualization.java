@@ -1,6 +1,5 @@
-package lab_1;
+npackage lab_1;
 
-export java.awt.*;
 import java.awt.event.*;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
