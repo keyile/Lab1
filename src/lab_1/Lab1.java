@@ -260,7 +260,7 @@ public class Lab1 {
 
 	static void printMenu() {
 		System.out.println("\t\t\t1.Enter the file path and name (eg.F:/test.txt)");
-		System.out.println("\t\t\t2.Show the diagraph");
+		System.out.println("\t\t\t2.Show the graph");
 		System.out.println("\t\t\t3.Query the bridge words between two words (eg:hello world)");
 		System.out.println("\t\t\t4.Complete the sentence by bridge words(eg:hello world one two three)");
 		System.out.println("\t\t\t5.Calculate the shortest path by one word or two words(eg:hello world/hello)");

@@ -41,7 +41,7 @@ public class GraphVisualization
         applet.initButton();
 
         frame = new JFrame();
-        frame.setTitle("Visualization");
+        frame.setTitle("Graph Visualization");
         frame.getContentPane().add(applet);
         frame.getContentPane().add(button, BorderLayout.SOUTH);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
@@ -55,7 +55,7 @@ public class GraphVisualization
     
     public void initButton()
     {
-        button = new JButton("保存为图片");
+        button = new JButton("保存到");
         button.addActionListener(this);
     }
 
