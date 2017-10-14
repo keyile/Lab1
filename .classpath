@@ -6,8 +6,7 @@
 	<classpathentry kind="lib" path="lib/jgraph-5.13.0.0.jar"/>
 	<classpathentry kind="lib" path="lib/jgrapht-core-1.0.1.jar"/>
 	<classpathentry kind="lib" path="lib/jgrapht-demo-1.0.1.jar"/>
-	<classpathentry kind="lib" path="lib/jgrapht-ext-1.0.1-uber.jar"/>
-	<classpathentry kind="lib" path="lib/jgrapht-ext-1.0.1.jar"/>
+		<classpathentry kind="lib" path="lib/jgrapht-ext-1.0.1.jar"/>
 	<classpathentry kind="lib" path="lib/jgraphx-2.0.0.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

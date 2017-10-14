@@ -5,9 +5,10 @@ import java.util.*;
 
 public class Lab1 {
 	private static DirectedGraph graph;
-	private static String[] words;
 	private static Scanner sc = new Scanner(System.in);
 	private static boolean graphReady; // flag that graph has been build
+	private static String[] words;
+
 
 	public static class DirectedGraph {
 		private ArrayList<String> vertexList;
@@ -84,7 +85,7 @@ public class Lab1 {
 			return vertexList.size();
 		}
 
-		@Override
+
 		public String toString() {
 			StringBuffer sb = new StringBuffer("Vertices:\n\t");
 			for (String v : vertexList) {

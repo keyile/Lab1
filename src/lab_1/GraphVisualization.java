@@ -55,7 +55,7 @@ public class GraphVisualization
     
     public void initButton()
     {
-        button = new JButton("保存为图片");
+        button = new JButton("保存此图片到计算机");
         button.addActionListener(this);
     }
 
@@ -63,7 +63,7 @@ public class GraphVisualization
 	//按下了按钮
         JFileChooser chooser = new JFileChooser();
         FileNameExtensionFilter filter = new FileNameExtensionFilter(
-            "JPG & PNG Images", "jpg", "png");
+            "JPG & PNG Images", "jpg");
         chooser.setFileFilter(filter);
         int returnVal = chooser.showSaveDialog(null);
         if(returnVal == JFileChooser.APPROVE_OPTION) {
