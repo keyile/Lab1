@@ -38,6 +38,7 @@ public class GraphVisualization
     {
     	GraphVisualization applet = new GraphVisualization();
         applet.init(vertexList, edges);
+	//初始化
         applet.initButton();
 
         frame = new JFrame();
